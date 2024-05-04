@@ -1,0 +1,26 @@
+{
+    "tr_1287_9_cause6":{
+        "explanation": "The two speakers are talking about B's business. A advised B to make a market investigation to prevent a deficit. In the cause utterance #6, B accepted A's suggestion and promised to do his best. B's performance of not being afraid of difficulties moved A and made A willing to believe that he could succeed. Therefore, in the target utterance #9, A happily encourages B that he can make it.",
+        "stimulus": "B promises to do his best.",
+        "appraisal": "A thinks B is not afraid of difficulties and will succeed in the end.",
+        "reaction": "A expresses his happiness and encouragement to B."
+    },
+    "tr_3676_5_cause3":{
+        "explanation": "In this conversation, B is tring to persuade A to stay a while. In the cause utterance #3, A was pleased by B's effort and think that B is very kind. It's A's view to B that made A want to thank B. So in the target utterance #5, A expresses his happiness and gratitude for B's hospitality.",
+        "stimulus": "A's view that B is very kind.",
+        "appraisal": "A thinks B is very kind.",
+        "reaction": "A expresses his happiness and gratitude for B's hospitality."
+    },
+    "tr_20_8_cause8":{
+        "explanation": "The two speakers are chatting while watching a baseball game. A said that this is a good place to watch a baseball game. In the cause utterance #8, B agrees with A's opinion because he thinks that there isn't a bad seat in the place. It's B's view of the watching place that makes B feel happy and praise for this watching place in the target utterance #8.",
+        "stimulus": "B's view that there isn't a bad seat in the place they sit in.",
+        "appraisal": "B thinks that the place they sit in is good.",
+        "reaction": "B happily praise for their watching place."
+    },
+    "tr_2232_4_cause3":{
+        "explanation": "The two speakers are talking about plans for Saturday afternoon. In the cause utterance #3, A told B that there was a special exhibition and invited B to go with him. However, we know that B will have other arrangements on that day according to the target utterance #4. So A's invitation may make B feel regretful, which leads B to express his disappointments and regrets for not going with A in the target utterance #4.",
+        "stimulus": "A invites B to go to the exhibition together.",
+        "appraisal": "B thinks it is regretful to decline A's invitation.",
+        "reaction": "B regretfully explains the reason why he cannot go with A."
+    }
+}

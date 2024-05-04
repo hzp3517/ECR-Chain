@@ -1,0 +1,54 @@
+{
+    "tr_264_6":{
+        "theme": "Complain about each other's noise.",
+        "reaction":[
+            "B expresses his anger with A's complaint to B.",
+            "B angrily points out that A chats frequently which also makes much noise."
+        ],
+        "appraisal":[
+            "B thinks the noise made by A is annoying.",
+            "B thinks that A has no right to blame B for making noise as A is also used to making noise."
+        ],
+        "stimuli":[
+            "A is used to slurping his coffee which makes some annoying noise (#4).",
+            "A accused B of tapping the pen on the desk (#3).",
+            "A accused B of making noise during the phone call (#5, #6)."
+        ]
+    },
+    "tr_5811_4":{
+        "theme": "Find the earphone.",
+        "reaction":[
+            "B is happy for seeing his new radio earphone."
+        ],
+        "appraisal":[
+            "B thinks he is so like this earphone."
+        ],
+        "stimuli":[
+            "B finds his new radio earphone (#4)."
+        ]
+    },
+    "tr_2553_8":{
+        "theme": "Summer vacation plan.",
+        "reaction":[
+            "B is happy to hear that A's plan is the same as B's one."
+        ],
+        "appraisal":[
+            "B thinks it is great that A's plan is the same as his own."
+        ],
+        "stimuli":[
+            "A's plan is the same as B's one (#7)."
+        ]
+    },
+    "tr_3449_3":{
+        "theme": "Weather, greeting.",
+        "reaction":[
+            "A has been happy about the good weather till now."
+        ],
+        "appraisal":[
+            "A thinks the weather is comfortable for him."
+        ],
+        "stimuli":[
+            "The weather is nice and warm (#1)."
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "tr_1319_4":{
+        "reaction":[
+            "B enthusiastically agrees with A's suggestion of having lunch outside.",
+            "B describes the pleasant weather conditions.",
+            "B expresses his happiness and says that having lunch outside is a good idea."
+        ],
+        "appraisal":[
+            "B thinks it is a good idea to have lunch outside.",
+            "B thinks the weather is perfect for outdoor activities."
+        ],
+        "stimuli":[
+            "A's statement about the lovely day (#1).",
+            "B's agreement with A's statement about the nice weather (#2).",
+            "A suggests having lunch outside (#3).",
+            "The sky is clear, the sun is shining, and there's a nice cool breeze (#4)."
+        ]
+    },
+    "tr_132_2":{
+        "reaction":[
+            "B expresses happiness and gratitude for the beautiful gift.",
+            "B mentions that A shouldn't have gotten the gift."
+        ],
+        "appraisal":[
+            "B thinks the gift is beautiful and appreciates it.",
+            "B thinks A shouldn't have spent money on the gift.",
+            "B is pleasantly surprised and feels grateful for the unexpected gift."
+        ],
+        "stimuli":[
+            "A gives B a beautiful gift for Mother's Day (#1, #2).",
+            "A spends money on the gift for B (#1)."
+        ]
+    },
+    "tr_1086_3":{
+        "reaction":[
+            "A expresses happiness and excitement about the plan to go boating on the lake in the afternoon."
+        ],
+        "appraisal":[
+            "A thinks it is great to have the opportunity to go boating on the lake in the afternoon."
+        ],
+        "stimuli":[
+            "B mentioned that there is a lake in the park (#2).",
+            "A's positive view of the park and the opportunity to go boating on the lake in the afternoon (#3)."
+        ]
+    }
+}

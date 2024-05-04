@@ -1,0 +1,27 @@
+[Question]
+Conversation:
+"""
+<conversation>
+"""
+Target Speaker: <target_speaker>
+Target Utterance: #<target_utt>
+Question: Please give a "theme->reactions->appraisals->stimuli" chain to analyze the cause of the target speaker <target_speaker>'s <target_emotion> expressed in #<target_utt>.
+Note: "Theme" means a summarization of the conversation in a few words and can be "none" if the conversation does not contain much information. "Reactions" means target speaker's reaction or behavior with his/her target emotion. "Appraisals" means the inner thoughts of the target speaker. "Stimuli" can be events, situations, opinions, or experiences of the target speaker in the conversational context, and they can also be the other speaker’s counterpart reactions, but they should be primarily responsible for the target speaker's emotion in the target utterance.
+[The Start of Assistant 1’s Answer]
+<ass_1_answer>
+[The End of Assistant 1’s Answer] 
+[The Start of Assistant 2’s Answer]
+<ass_2_answer>
+[The End of Assistant 2’s Answer]
+[System]
+We would like to request your feedback on the performance of two AI assistants in response to the emotional cause reasoning question displayed above.
+Please consider the logical coherence within each part of the chain, the relevance of the chain's content to the original conversation, and the accuracy of the final inferred stimulus factors, leading to an overall evaluation.
+
+Each assistant receives an overall score on a scale of 1 to 10 (should be an integer), where a higher score indicates better overall performance.
+Please first provide a comprehensive explanation of your evaluation, avoiding any potential bias and ensuring that the order in which the responses were presented does not affect your judgment.
+Then, output two lines indicating the scores for Assistant 1 and 2, respectively.
+
+Output with the following format:
+Evaluation evidence: <your evaluation explanation here>
+The score of Assistant 1: <score>
+The score of Assistant 2: <score>

@@ -1,0 +1,44 @@
+Please understand the emotion cause for the target utterance in a given conversation.
+
+In a given conversation, each sentence contains its index number, speaker, emotion, and its content, written in this format: `#[index number]: [speaker] ([emotion]): "[content]"`. A target non-neutral utterance will be specified, where the emotion of the target non-neutral utterance may be one of the types of [happiness, sadness, anger, fear, surprise, disgust]. The target speaker is the corresponding speaker of the target utterance. Besides, a causal utterance will be given. A causal utterance is a particular utterance in the conversation history (can be the target utterance itself) responsible for the non-neutral emotion in the target utterance. You should find what the exact cause factor is from the causal utterance and understand how the factor causes the target speaker's emotional response reflected in the target utterance.
+
+Specifically, you should perform a 4-step reasoning process:
+1. Give an "Explanation": First, understand the semantics expressed by the cause utterance based on the conversation context. Then, consider what exact factor conveyed by the cause utterance might be responsible for the non-neutral emotion in the target utterance. You need to consider the factor in conjunction with the target speaker's inner thoughts and his/her reaction or behavior corresponding to the emotion in the target utterance. But note that if the speaker of the causal utterance is also the target speaker, the exact factor is more likely to be some objective events he/she described or his/her own subjective opinions, rather than his/her own actions. Because generally speaking, one's actions would not cause his/her own subsequent emotions, only his/her opinions or other events (including the other speaker's actions) can do. Use a few sentences to give your "Explanation" of the target speaker's emotion.
+2. Extract the "Stimulus" from the causal utterance: A "Stimulus" can be an event, situation, opinion, or experience in the conversational context that is primarily responsible for the elicited emotion in the target utterance. Apart from them, the "Stimulus" could also be the other speaker’s counterpart reaction towards an event cared for by the target speaker. Write the "Stimulus" in one brief sentence. Note that it should correspond to the exact factors you found in the "Explanation".
+3. Infer the "Appraisal" of the target speaker in the target utterance: Infer and describe the inner thoughts of the target speaker when the target utterance is saying based on the conversation context, the "Explanation" and the "Stimulus" you have written before. Write the "Appraisal" in one brief sentence.
+4. Describe the "Reaction" of the target speaker in the target utterance: Describe the target speaker's reaction or behavior with his/her target emotion when the target utterance is saying according to the context, the "Explanation" and the "Appraisal" you have written before. Write the "Reaction" in one brief sentence.
+
+I will show you some examples:
+
+$$
+--- Example[x] ---
+Conversation:
+"""
+<example_conversation>
+"""
+Target Utterance:
+"""
+<example_target_utterance>
+"""
+Causal Utterance:
+"""
+<example_causal_utterance>
+"""
+Now please perform the 4-step reasoning process:
+<example_results>
+
+$$
+--- To be solved ---
+Conversation:
+"""
+<test_conversation>
+"""
+Target Utterance:
+"""
+<test_target_utterance>
+"""
+Causal Utterance:
+"""
+<test_causal_utterance>
+"""
+Now please perform the 4-step reasoning process:

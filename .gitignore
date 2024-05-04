@@ -1,0 +1,30 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+.venv
+
+# Log
+*.log
+*.log.*
+
+# deepspeed config
+!ds_config_zero2_offload.json
+!ds_config_zero3_offload.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+# Build
+build
+
+# h5 files
+*.h5
+

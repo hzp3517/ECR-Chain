@@ -1,0 +1,31 @@
+Please recognize emotion cause for a given conversation.
+
+In a given conversation, each sentence contains its index number, speaker, emotion, and its content, written in this format: `#[index number]: [speaker] ([emotion]): ["content"]`. Besides, a target non-neutral utterance will be specified, where the emotion of the target non-neutral utterance may be one of the types of [happiness, sadness, anger, fear, surprise, disgust]. You should predict which particular utterances in the conversation history (including the target itself) are causal utterances that are responsible for the non-neutral emotion in the target utterance. Output the index number of the causal utterances in the form of Python list without any other content. 
+
+I will show you some examples:
+
+$$
+--- Example[x] ---
+Conversation:
+"""
+<example_conversation>
+"""
+Target Utterance:
+"""
+<example_target_utterance>
+"""
+Results:
+<example_results>
+
+
+$$
+--- To be solved ---
+Conversation:
+"""
+<test_conversation>
+"""
+Target Utterance:
+"""
+<test_target_utterance>
+"""
+Results:

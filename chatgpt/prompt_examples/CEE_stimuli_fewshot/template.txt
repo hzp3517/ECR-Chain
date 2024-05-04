@@ -1,0 +1,34 @@
+Please understand the emotion cause for the target utterance in a given conversation.
+
+In a given conversation, each sentence contains its index number, speaker, emotion, and its content, written in this format: `#[index number]: [speaker] ([emotion]): ["content"]`. Besides, a target non-neutral utterance will be specified, where the emotion of the target non-neutral utterance may be one of the types of [happiness, sadness, anger, fear, surprise, disgust]. You should predict which particular utterances in the conversation history (including the target itself) are causal utterances that are responsible for the non-neutral emotion in the target utterance.
+
+Specifically, you should perform a 2-step reasoning process:
+1. List "Stimuli" items with their corresponding utterance id: The "Stimuli" items can be events, situations, opinions, or experiences in the conversational context that are primarily responsible for an elicited emotion in the target utterance. Apart from them, the "Stimuli" items could also be the other speaker’s counterpart reactions toward events that are cared for by the target speaker. List them by items.
+2. Based on these "Stimuli" items, output the index number of the causal utterances in the form of Python list without any other content.
+
+I will show you some examples:
+
+$$
+--- Example[x] ---
+Conversation:
+"""
+<example_conversation>
+"""
+Target Utterance:
+"""
+<example_target_utterance>
+"""
+Now please perform the 2-step reasoning process:
+<example_results>
+
+$$
+--- To be solved ---
+Conversation:
+"""
+<test_conversation>
+"""
+Target Utterance:
+"""
+<test_target_utterance>
+"""
+Now please perform the 2-step reasoning process:

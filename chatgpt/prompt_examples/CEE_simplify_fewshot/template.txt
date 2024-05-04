@@ -1,0 +1,53 @@
+Please simplify the given reasoning chains for the conversational emotion cause understanding task.
+
+In a given conversation, each sentence contains its index number, speaker, emotion, and its content, written in this format: `#[index number]: [speaker] ([emotion]): ["content"]`. A target utterance and some causal utterances will be given. The target utterance always has a non-neutral emotion. The target speaker is the corresponding speaker of the target utterance. The causal utterances are those in the conversation history (including the target itself) that contain causes responsible for the non-neutral emotion in the target utterance. 
+Besides, some reasoning chains for understanding the causal relationships between the target utterance and causal utterances are also given. The reasoning chains consist of 3 parts: "Reactions", "Appraisals", and "Stimuli". "Reactions" are the target speaker's reaction or behavior with his/her target emotion when the target utterance is saying. "Appraisals" are the inner thoughts of the target speaker when the target utterance is saying. "Stimuli" can be events, situations, opinions, or experiences in the conversational context, and can also be the other speaker's counterpart reactions toward events. The given reasoning chains may have some redundant items in each of these 3 parts, so they may need to be simplified.
+
+Specifically, you need to note the following points:
+- The simplified version still needs to have 3 parts: "Reactions", "Appraisals", and "Stimuli".
+- You can, based on semantics, re-summarize the content of each part into some new items. Ensure that different items should emphasize different aspects.
+- Unless necessary, please refrain from making excessive modifications to the original expression. However, you are allowed to make adjustments to merge several items, especially when these items share semantic similarities or when some of them are encompassed by others, resulting in a single item.
+- Each "Stimuli" item should be accompanied by its corresponding causal utterances ids, using the format like `<stimulus description> (#<id[, id, ...]>)`. Ensure that all causal utterances ids are covered in the "Stimuli" part.
+
+I will show you some examples:
+
+$$
+--- Example[x] ---
+Conversation:
+"""
+<example_conversation>
+"""
+Target Utterance:
+"""
+<example_target_utterance>
+"""
+Causal Utterances:
+"""
+<example_causal_utterances>
+"""
+Original Reasoning Chains:
+"""
+<original_reasoning_chains>
+"""
+Now please consider simplifying each part of the above reasoning chains based on the conversation context:
+<example_results>
+
+$$
+--- To be solved ---
+Conversation:
+"""
+<test_conversation>
+"""
+Target Utterance:
+"""
+<test_target_utterance>
+"""
+Causal Utterances:
+"""
+<test_causal_utterances>
+"""
+Original Reasoning Chains:
+"""
+<test_original_reasoning_chains>
+"""
+Now please consider simplifying each part of the above reasoning chains based on the conversation context:
